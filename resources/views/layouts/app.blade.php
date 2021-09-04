@@ -16,7 +16,7 @@
 <body>
     <!-- inicio de menu -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="#"><img src="{{URL::asset('image/logo2.JPG')}}" width="100%" height="90px"></a>
+<a class="navbar-brand" href="#"><img src="{{URL::asset('image/logo.JPG')}}" width="100%" height="90px"></a>
 <div class="container-fluid">
   <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
     <ul class="navbar-nav">
@@ -31,7 +31,7 @@
 <!-- fin de menu -->
     <!-- Content--->
     <h1 class="text-center p-4">LISTADO USUARIOS</h1>
-    <a href="{{route('users.index')}}">Ir al crud</a>
+    <a href="{{route('users.index')}}" class="btn btn-danger ">Ir al crud</a>
         <div>
              @yield('contenido');
         </div>
